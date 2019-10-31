@@ -1,0 +1,1 @@
+cKeyboard.js & cKeyCode.js using a different encoding inorder to match the same text char.Do not use this 2 files as copys to create new classes.

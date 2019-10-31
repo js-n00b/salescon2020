@@ -1,0 +1,15 @@
+//Important note to do to re-publishing of this Keyboard_canvas.
+
+1) Set Lib to Asset at publish setting, to prevent clashing with other keyboard of project
+2) Editing of the canvas code: Some buttons were renamed by createjs due to having same instance name,
+	example pbKey_1 on num keyboard and (renamed)pbKey_1_1 on qwerty keyboard
+	revert the names to the correct naming pbKey_1_1 -> pbKey_1, this will not affect the function.
+3) Note on edit the addChild too when doing point 2.
+
+addition keyboard can be added from project through mImportKB
+
+mImportKB[unique name] = keyboard from project
+
+Setting the unique name at textfield ShowKeyboard will let Main handle the keyboard
+however, note! The keyboard needs to be added to stage and should not have non-keyboard element.
+All button's click will be replace by cKeyboard's click handle therefore won't return non-keyboard element.

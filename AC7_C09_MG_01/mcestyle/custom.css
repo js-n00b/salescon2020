@@ -1,0 +1,26 @@
+/*base setting, do not remove, just add what you need example:font-family*/
+html, body, div, canvas 
+{
+	padding:0; 
+	margin:0;
+	border:0;	
+	font-family:'AMCE Basic';
+}
+
+/*default version*/
+@font-face {
+	font-family: 'AMCE Basic';
+	src: 
+		local('AMCEBasic-Regular'),
+		url('fonts/AMCEBasic-Regular.otf') 
+		format('opentype');
+}
+/*bold version*/
+@font-face {
+	font-family: 'AMCE Basic';
+	src: 
+		local('AMCEBasic-Bold'),
+		url('fonts/AMCEBasic-Bold.otf') 
+		format('opentype');
+	font-weight: bold;
+}

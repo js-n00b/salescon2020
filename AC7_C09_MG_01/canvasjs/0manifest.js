@@ -1,0 +1,20 @@
+	manifest: [
+		{src:"images/Bitmap1.png", id:"Bitmap1"},
+		{src:"sounds/Track_65.mp3", id:"BgMusic"},
+		{src:"sounds/boyHurt.mp3", id:"boyHurt"},
+		{src:"sounds/tadawav.mp3", id:"tadawav"},
+		{src:"sounds/wrong00.mp3", id:"wrong00"},
+		{src:"sounds/Correct_0.mp3", id:"Correct_0"},
+		{src:"sounds/Correct_1.mp3", id:"Correct_1"},
+		{src:"sounds/Correct_2.mp3", id:"Correct_2"},
+		{src:"sounds/Wrong_0.mp3", id:"Wrong_0"},
+		{src:"sounds/Wrong_1.mp3", id:"Wrong_1"},
+		{src:"sounds/Wrong_2.mp3", id:"Wrong_2"},
+		{src:"sounds/Wrong_2.mp3", id:"Wrong_2"},
+		{src:"sounds/Retry_0.mp3", id:"Retry_0"},
+		{src:"sounds/Retry_1.mp3", id:"Retry_1"},
+		{src:"sounds/Retry_2.mp3", id:"Retry_2"},
+		{src:"sounds/ShowAnswer_0.mp3", id:"ShowAnswer_0"},
+		{src:"sounds/ShowAnswer_1.mp3", id:"ShowAnswer_1"},
+		{src:"sounds/ShowAnswer_2.mp3", id:"ShowAnswer_2"}
+	]
